@@ -29,18 +29,27 @@ ul {
 }
 
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid tomato;
+
+  width: 1200px;
 }
 
 .hidden {
   display: none;
 }
 /* <header> */
+/* Логотип */
+/* .nav-flex a([href="./index.html"]) {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-left: 215px;
+  min-width: 153px;
+} */
 
 .logo-web {
   color: var(--accent-color);
@@ -61,6 +70,10 @@ ul {
 }
 
 .menu-nav a {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -68,10 +81,39 @@ ul {
   letter-spacing: 0.02em;
   color: var(--dark-main-color);
 }
+.menu-nav {
+  display: flex;
+}
+/* .menu-nav .item {
+  background: tomato;
+} */
 
+.menu-nav .item + .item {
+  margin-left: 50px;
+}
+
+.menu-nav {
+  margin-left: 85px;
+}
+
+.nav-flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 /* Контакты */
+.contacts {
+  display: flex;
+}
+
+.contacts a + a {
+  margin-left: 30px;
+}
 
 .contacts > a {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -101,12 +143,18 @@ header .link:focus {
 }
 
 .order {
+  /* margin-top: 350px;
+  margin-bottom: 200px;
+  margin-left: 700px;
+  margin-right: 700px; */
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  text-transform: none;
 }
 .button {
   display: inline-block;
