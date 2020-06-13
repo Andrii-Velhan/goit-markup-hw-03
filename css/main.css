@@ -37,7 +37,6 @@ address {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
 
   width: 1200px;
 }
@@ -62,7 +61,6 @@ address {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  outline: 2px solid tomato;
 }
 
 .logo-studio-top {
@@ -72,7 +70,6 @@ address {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  outline: 2px solid tomato;
 }
 
 .menu-nav a {
@@ -365,6 +362,15 @@ footer {
   background: var(--primary-footer-color);
 }
 
+.company-address > a {
+  margin-bottom: 8px;
+}
+
+.footer-address a {
+  display: block;
+  margin-top: 9px;
+}
+
 .logo-studio-bottom {
   color: var(--primary-white-color);
   font-family: Raleway, sans-serif;
@@ -372,6 +378,34 @@ footer {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  /*   */
+}
+
+.footer-top-box {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-content: center;
+  justify-content: space-between; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 193px;
+}
+
+.studio-social-links {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.company-address {
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid aqua;
+  /* height: 120px; */
+}
+
+.studio-social-links li + li {
+  margin-left: 10px;
 }
 
 .footer-address {
@@ -390,6 +424,12 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.join {
+  height: 41%;
+  margin-left: 69px;
+  outline: 1px solid aqua;
+}
+
 .join b {
   font-weight: 700;
   font-size: 14px;
@@ -400,6 +440,7 @@ footer {
 }
 
 .join a {
+  /* display: flex; */
   color: var(--primary-white-color);
 }
 
@@ -410,15 +451,19 @@ footer {
 }
 
 .subscribe {
+  display: flex;
+  /* padding-left: auto; */
+  min-width: 570px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
-  /* identical to box height, or 187% */
-  display: flex;
+  line-height: 1.87;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
+  height: 45%;
+  margin-left: auto;
+  outline: 1px solid aqua;
 }
 
 .subscribe button:hover,
@@ -428,11 +473,19 @@ footer {
   outline-width: 0px;
 }
 
+.footer-bottom-box {
+  display: flex;
+  /* align-self: center; */
+  justify-content: center;
+  align-items: center;
+
+  height: 60px;
+}
+
 .developer-info {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
-  text-align: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.4);
 }
