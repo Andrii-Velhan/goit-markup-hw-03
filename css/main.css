@@ -194,14 +194,20 @@ header .link:focus {
 
 /* Особенности */
 
-.container .features {
+.feature-items {
+  display: flex;
+  justify-content: space-between;
   margin-top: 94px;
 }
 
-.feature-items {
-  display: flex;
+.feature-items li + li {
+  margin-left: 30px;
 }
 .feature-items h3 {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -211,6 +217,9 @@ header .link:focus {
 }
 
 .feature-items p {
+  display: block;
+  margin: 0px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -218,7 +227,35 @@ header .link:focus {
   color: var(--text-color);
 }
 
+/* Чем мы занимаемся */
+
+.employments {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 0 0;
+}
+
+.employments-container {
+  margin-top: 94px;
+}
+
+.employments-container h2 {
+  display: block;
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-main-color);
+}
+
 .employments h3 {
+  margin: 0;
+  /* тимчасово */
+  height: 70px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
@@ -235,7 +272,51 @@ header .link:focus {
   top: 1435px; */
 }
 
+.employments li + li {
+  margin-left: 30px;
+}
+
+/* Наша команда */
+
+/* .box {
+  margin-top: 94px;
+  margin-bottom: 94px;
+  padding-bottom: 94px;
+  outline: 1px solid yellow;
+  background: #2196f3;
+}
+
+.box-title {
+  display: block;
+  margin: 0;
+}
+
+.box-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 0 0;
+}
+
+.box-items > li + li {
+  margin-left: 30px;
+} */
+
+.our-team-bg {
+  background-color: var(--background-primary-gray);
+}
+.team-box {
+  margin-top: 94px;
+  margin-bottom: 94px;
+  padding-bottom: 94px;
+  /* outline: 1px solid yellow; */
+  /* background: #2196f3; */
+}
+
 .team-title {
+  display: block;
+  padding-top: 94px;
+  margin: 0;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -250,7 +331,20 @@ header .link:focus {
   top: 1693px; */
 }
 
-.team-title h3 {
+.team-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 0 0;
+}
+
+.team-items > li + li {
+  margin-left: 30px;
+}
+
+.team-items h3 {
+  display: block;
+  margin: 30px 0 0 0;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -259,13 +353,22 @@ header .link:focus {
   color: var(--dark-main-color);
 }
 
-.team-title p {
+.team-items p {
+  display: block;
+  margin: 10px 0 0 0;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+
+.social-link {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .social-link a:hover,
@@ -275,7 +378,29 @@ header .link:focus {
   outline-width: 0px;
 }
 
-.customer {
+/* Наши клиенты */
+
+.customer-box {
+  margin-top: 94px;
+  margin-bottom: 94px;
+  outline: 1px solid yellow;
+}
+
+.customer-title {
+  display: block;
+  margin: 0;
+}
+
+.customer-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 0 0;
+}
+
+.customer-items > li + li {
+  margin-left: 30px;
+}
+.customer-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;

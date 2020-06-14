@@ -62,7 +62,7 @@
         </div>
       </section>
       <!-- Особенности -->
-      <section class="container features">
+      <section class="container">
         <!-- скрыть заголовок секции -->
         <h2 class="hidden features-title">Особенности</h2>
         <ul class="feature-items">
@@ -104,88 +104,110 @@
 
       <!-- Чем мы занимаемся -->
       <section class="container">
-        <h2>Чем мы занимаемся</h2>
-        <ul class="employments">
-          <li>
-            <!-- Уточнить ссылки это или нет? -->
-            <img src="./images/img.jpg" alt="Работа на ноутбуке" width="370" />
-            <h3>Десктопные приложения</h3>
-          </li>
+        <div class="employments-container">
+          <h2 class="employments-title">Чем мы занимаемся</h2>
+          <ul class="employments">
+            <li>
+              <!-- Уточнить ссылки это или нет? -->
+              <img
+                src="./images/img.jpg"
+                alt="Работа на ноутбуке"
+                width="370"
+              />
+              <h3>Десктопные приложения</h3>
+            </li>
 
-          <li>
-            <img src="./images/img2.jpg" alt="Смартфон" width="370" />
-            <h3>Мобильные приложения</h3>
-          </li>
+            <li>
+              <img src="./images/img2.jpg" alt="Смартфон" width="370" />
+              <h3>Мобильные приложения</h3>
+            </li>
 
-          <li>
-            <img src="./images/img3.jpg" alt="Монитор" width="370" />
-            <h3>Дизайнерские решения</h3>
-          </li>
-        </ul>
+            <li>
+              <img src="./images/img3.jpg" alt="Монитор" width="370" />
+              <h3>Дизайнерские решения</h3>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Наша команда -->
-      <section class="container">
-        <h2 class="team-title">Наша команда</h2>
-        <ul>
-          <li>
-            <img src="./images/img(1).jpg" alt="John Smith photo" width="270" />
-            <h3>John Smith</h3>
-            <p>Product Designer</p>
-            <!-- уточнить: соцсети оборачивать в секцию? -->
-            <ul class="social-link">
-              <li><a href="" aria-label="Ссылка на instagram">instagram</a></li>
-              <li><a href="" aria-label="Ссылка на twitter">twitter</a></li>
-              <li><a href="" aria-label="Ссылка на facebook">facebook</a></li>
-              <li><a href="" aria-label="Ссылка на linkedin">linkedin</a></li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./images/img(2).jpg"
-              alt="Marta Stewart photo"
-              width="270"
-            />
-            <h3>Marta Stewart</h3>
-            <p>Frontend Developer</p>
-            <ul class="social-link">
-              <li><a href="" aria-label="Ссылка на instagram">instagram</a></li>
-              <li><a href="" aria-label="Ссылка на twitter">twitter</a></li>
-              <li><a href="" aria-label="Ссылка на facebook">facebook</a></li>
-              <li><a href="" aria-label="Ссылка на linkedin">linkedin</a></li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./images/img(3).jpg"
-              alt="Robert Jakis photo"
-              width="270"
-            />
-            <h3>Robert Jakis</h3>
-            <p>Marketing</p>
-            <ul class="social-link">
-              <li><a href="" aria-label="Ссылка на instagram">instagram</a></li>
-              <li><a href="" aria-label="Ссылка на twitter">twitter</a></li>
-              <li><a href="" aria-label="Ссылка на facebook">facebook</a></li>
-              <li><a href="" aria-label="Ссылка на linkedin">linkedin</a></li>
-            </ul>
-          </li>
-          <li>
-            <img src="./images/img(4).jpg" alt="Martin Doe photo" width="270" />
-            <h3>Martin Doe</h3>
-            <p>UI Designer</p>
-            <ul class="social-link">
-              <li><a href="" aria-label="Ссылка на instagram">instagram</a></li>
-              <li><a href="" aria-label="Ссылка на twitter">twitter</a></li>
-              <li><a href="" aria-label="Ссылка на facebook">facebook</a></li>
-              <li><a href="" aria-label="Ссылка на linkedin">linkedin</a></li>
-            </ul>
-          </li>
-        </ul>
-      </section>
+      <div class="our-team-bg">
+        <section class="container team-box">
+          <h2 class="team-title box-title">Наша команда</h2>
+          <ul class="team-items">
+            <li>
+              <img
+                src="./images/img(1).jpg"
+                alt="Николай Кучеренко photo"
+                width="270"
+              />
+              <h3>Николай Кучеренко</h3>
+              <p>Product Designer</p>
+              <!-- уточнить: соцсети оборачивать в секцию? -->
+              <ul class="social-link">
+                <li><a href="" aria-label="Ссылка на instagram">im</a></li>
+                <li><a href="" aria-label="Ссылка на twitter">tw</a></li>
+                <li><a href="" aria-label="Ссылка на facebook">fk</a></li>
+                <li><a href="" aria-label="Ссылка на linkedin">ln</a></li>
+              </ul>
+            </li>
+            <li>
+              <img
+                src="./images/img(2).jpg"
+                alt="Ольга Иванова photo"
+                width="270"
+              />
+              <h3>Ольга Иванова</h3>
+              <p>Frontend Developer</p>
+              <ul class="social-link">
+                <li>
+                  <a href="" aria-label="Ссылка на instagram">instagram</a>
+                </li>
+                <li><a href="" aria-label="Ссылка на twitter">twitter</a></li>
+                <li><a href="" aria-label="Ссылка на facebook">facebook</a></li>
+                <li><a href="" aria-label="Ссылка на linkedin">linkedin</a></li>
+              </ul>
+            </li>
+            <li>
+              <img
+                src="./images/img(3).jpg"
+                alt="Андрей Шевченко photo"
+                width="270"
+              />
+              <h3>Андрей Шевченко</h3>
+              <p>Marketing</p>
+              <ul class="social-link">
+                <li>
+                  <a href="" aria-label="Ссылка на instagram">instagram</a>
+                </li>
+                <li><a href="" aria-label="Ссылка на twitter">twitter</a></li>
+                <li><a href="" aria-label="Ссылка на facebook">facebook</a></li>
+                <li><a href="" aria-label="Ссылка на linkedin">linkedin</a></li>
+              </ul>
+            </li>
+            <li>
+              <img
+                src="./images/img(4).jpg"
+                alt="Иван Николаев photo"
+                width="270"
+              />
+              <h3>Иван Николаев</h3>
+              <p>UI Designer</p>
+              <ul class="social-link">
+                <li>
+                  <a href="" aria-label="Ссылка на instagram">instagram</a>
+                </li>
+                <li><a href="" aria-label="Ссылка на twitter">twitter</a></li>
+                <li><a href="" aria-label="Ссылка на facebook">facebook</a></li>
+                <li><a href="" aria-label="Ссылка на linkedin">linkedin</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!-- Постоянные клиенты -->
-      <section class="container">
-        <h2 class="customer">Постоянные клиенты</h2>
-        <ul>
+      <section class="container customer-box">
+        <h2 class="customer-title">Постоянные клиенты</h2>
+        <ul class="customer-items">
           <li>
             <a href="">
               <img src="./images/logo1.svg" alt="Логотип компании 1" />
