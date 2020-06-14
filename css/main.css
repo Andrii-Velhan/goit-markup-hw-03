@@ -83,12 +83,12 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--dark-main-color);
-  outline: 1px solid tomato;
 }
+
 .menu-nav {
   display: flex;
-  outline: 2px solid aqua;
 }
+
 /* .menu-nav .item {
   background: tomato;
 } */
@@ -130,7 +130,6 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  outline: 1px solid tomato;
 }
 
 header .link:hover,
@@ -383,7 +382,6 @@ header .link:focus {
 .customer-box {
   margin-top: 94px;
   margin-bottom: 94px;
-  outline: 1px solid yellow;
 }
 
 .customer-title {
@@ -488,8 +486,6 @@ header .link:focus {
 .clients-item {
   width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
-
-  outline: 5px solid aqua;
 }
 
 .clients-item:nth-child(3n) {
