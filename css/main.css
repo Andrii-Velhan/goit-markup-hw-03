@@ -47,6 +47,12 @@ address {
   width: 1200px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .hidden {
   display: none;
 }
@@ -331,6 +337,12 @@ header .link:focus {
   /* background: #2196f3; */
 }
 
+.team-body {
+  background: var(--primary-white-color);
+  border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
+}
+
 .team-title {
   display: block;
   padding-top: 94px;
@@ -360,9 +372,10 @@ header .link:focus {
   margin-left: 30px;
 }
 
-.team-items h3 {
+/* .team-body h3 */
+.team-name {
   display: block;
-  margin: 30px 0 0 0;
+  margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
@@ -372,9 +385,10 @@ header .link:focus {
   color: var(--dark-main-color);
 }
 
-.team-items p {
+/* .team-body p */
+.team-function {
   display: block;
-  margin: 10px 0 0 0;
+  margin-bottom: 16px;
 
   font-weight: 400;
   font-size: 16px;
@@ -386,8 +400,9 @@ header .link:focus {
 
 .social-link {
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
+  justify-content: center;
+  /* align-items: center; */
+  padding-bottom: 24px;
 }
 
 .social-link a:hover,
@@ -395,6 +410,10 @@ header .link:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   outline-width: 0px;
+}
+
+.social-link li + li {
+  margin-left: 10px;
 }
 
 /* Наши клиенты */
@@ -452,10 +471,14 @@ header .link:focus {
 
 /* filters */
 
+.pf-body {
+  padding-top: 93px;
+  padding-bottom: 94px;
+}
+
 .filters {
   display: flex;
   justify-content: center;
-  margin-top: 93px;
   margin-bottom: 34px;
 }
 
@@ -491,11 +514,14 @@ header .link:focus {
   margin: 0;
 }
 .card-body > :not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 .card-body {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .clients-list {
   display: flex;
@@ -587,7 +613,7 @@ footer {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  margin: 0;
+  margin: 20px 0 0 0;
 }
 
 .company-address {
