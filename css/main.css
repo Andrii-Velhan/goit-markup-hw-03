@@ -332,6 +332,7 @@ header .link:focus {
   /* margin-bottom: 94px; */
 }
 .team-box {
+  padding-top: 94px;
   padding-bottom: 94px;
   /* outline: 1px solid yellow; */
   /* background: #2196f3; */
@@ -345,7 +346,6 @@ header .link:focus {
 
 .team-title {
   display: block;
-  padding-top: 94px;
   margin: 0;
 
   font-weight: 700;
